@@ -116,7 +116,7 @@ if __name__ == '__main__':
         torch.backends.cudnn.deterministic = True
 
 
-    parser = argparse.ArgumentParser(description='Greenhouse Image Analysis')
+    parser = argparse.ArgumentParser(description='SleepDG')
     parser.add_argument('--target_domains', type=list, default=['SHHS1'], help='target_domains')
     parser.add_argument('--seed', type=int, default=777, help='random seed (default: 0)')
     parser.add_argument('--cuda', type=int, default=7, help='cuda number (default: 1)')

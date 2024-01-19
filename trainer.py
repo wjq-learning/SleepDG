@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 from models.model import Model
-from models.discriminator import Discriminator
 from tqdm import tqdm
 import numpy as np
 import torch

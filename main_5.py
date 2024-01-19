@@ -34,7 +34,7 @@ def main():
     torch.cuda.set_device(cuda_id)
     accs, f1s = [], []
     for dataset_name in datasets:
-        parser = argparse.ArgumentParser(description='GSS')
+        parser = argparse.ArgumentParser(description='SleepDG')
         parser.add_argument('--target_domains', type=str, default=dataset_name, help='target_domains')
         # parser.add_argument('--seed', type=int, default=443, help='random seed (default: 0)')
         # parser.add_argument('--cuda', type=int, default=4, help='cuda number (default: 1)')

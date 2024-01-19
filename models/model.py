@@ -8,15 +8,15 @@ class Model(nn.Module):
     def __init__(self, params):
         super(Model, self).__init__()
         self.params = params
-        self.vae = AE(params)
+        self.ae = AE(params)
         self.classifier = nn.Linear(512, self.params.num_of_classes)
 
     def forward(self, x):
-        recon, mu = self.vae(x)
+        recon, mu = self.ae(x)
         return self.classifier(mu), recon, mu
 
     def inference(self, x):
-        mu = self.vae.encoder(x)
+        mu = self.ae.encoder(x)
         return self.classifier(mu)
 
 
