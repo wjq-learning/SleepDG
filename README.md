@@ -4,7 +4,7 @@
 #### Please cite:
 ```bash
 @inproceedings{wang2024generalizable,
-  title={Generalizable sleep staging via multi-level domain alignment},
+  title={Generalizable Sleep Staging via Multi-Level Domain Alignment},
   author={Wang, Jiquan and Zhao, Sha and Jiang, Haiteng and Li, Shijian and Li, Tao and Pan, Gang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={38},
