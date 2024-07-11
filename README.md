@@ -2,7 +2,7 @@
 #### The code of the paper "Generalizable Sleep Staging via Multi-Level Domain Alignment" in AAAI-2024.
 #### You can read the paper in https://arxiv.org/abs/2401.05363 for the newest version of the paper.
 ## Noting!!!!
-#### There is an error in the dataset numbering in the formal version of the AAAI paper; we will correct it in Arxiv version.
+#### There is an error in the dataset numbering in the formal version of the AAAI paper; we have corrected it in Arxiv version.
 
 ## Datasets
 The SleepEDFx dataset is on https://physionet.org/content/sleep-edfx/1.0.0/
