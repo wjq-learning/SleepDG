@@ -1,6 +1,6 @@
 # SleepDG
 #### The code of the paper "Generalizable Sleep Staging via Multi-Level Domain Alignment" in AAAI-2024.
-#### You can read the paper in https://arxiv.org/abs/2401.05363 for the newest version of the paper.
+#### You should read the paper in https://arxiv.org/abs/2401.05363 for the newest version of the paper.
 ## Noting!!!!
 #### There is an error in the dataset numbering in the formal version of the AAAI paper; we have corrected it in the preprint version of Arxiv.
 
