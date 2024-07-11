@@ -34,7 +34,7 @@ label2id = {'W': 0,
             'R': 4}
 
 for psg_f_name, label_f_name in tqdm(psg_label_f_pairs):
-    signals, fields = wfdb.rdsamp(psg_f_name[:-4], channel_names=['C3-M2', 'O1-M2'])
+    signals, fields = wfdb.rdsamp(psg_f_name[:-4], channel_names=['C3-M2', 'E1-M2'])
     print(fields)
     ann = wfdb.rdann(label_f_name[:-8], label_f_name[-7:])
     signals, ann = resample_multichan(signals, ann, 200, 100)
