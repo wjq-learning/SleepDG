@@ -1,6 +1,6 @@
 # SleepDG
 #### The code of the paper "Generalizable Sleep Staging via Multi-Level Domain Alignment" in AAAI-2024.
-#### You can read the paper in https://arxiv.org/abs/2401.05363
+#### You can read the paper in https://arxiv.org/abs/2401.05363 for the newest version of the paper.
 
 ## Datasets
 The SleepEDFx dataset is on https://physionet.org/content/sleep-edfx/1.0.0/
