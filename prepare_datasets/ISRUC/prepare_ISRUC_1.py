@@ -92,21 +92,21 @@ for psg_f_name, label_f_name in tqdm(psg_label_f_pairs):
     labels_seq = labels_array.reshape(-1, 20)
     print(labels_seq.shape)
 
-    # if not os.path.isdir(f'{seq_dir}/ISRUC-group1-{str(n)}'):
-    #     os.makedirs(f'{seq_dir}/ISRUC-group1-{str(n)}')
-    # for seq in epochs_seq:
-    #     seq_name = f'{seq_dir}/ISRUC-group1-{str(n)}/ISRUC-group1-{str(n)}-{str(num_seqs)}.npy'
-    #     with open(seq_name, 'wb') as f:
-    #         np.save(f, seq)
-    #     num_seqs += 1
-    #
-    # if not os.path.isdir(f'{label_dir}/ISRUC-group1-{str(n)}'):
-    #     os.makedirs(f'{label_dir}/ISRUC-group1-{str(n)}')
-    # for label in labels_seq:
-    #     label_name = f'{label_dir}/ISRUC-group1-{str(n)}/ISRUC-group1-{str(n)}-{str(num_labels)}.npy'
-    #     with open(label_name, 'wb') as f:
-    #         np.save(f, label)
-    #     num_labels += 1
+    if not os.path.isdir(f'{seq_dir}/ISRUC-group1-{str(n)}'):
+        os.makedirs(f'{seq_dir}/ISRUC-group1-{str(n)}')
+    for seq in epochs_seq:
+        seq_name = f'{seq_dir}/ISRUC-group1-{str(n)}/ISRUC-group1-{str(n)}-{str(num_seqs)}.npy'
+        with open(seq_name, 'wb') as f:
+            np.save(f, seq)
+        num_seqs += 1
+
+    if not os.path.isdir(f'{label_dir}/ISRUC-group1-{str(n)}'):
+        os.makedirs(f'{label_dir}/ISRUC-group1-{str(n)}')
+    for label in labels_seq:
+        label_name = f'{label_dir}/ISRUC-group1-{str(n)}/ISRUC-group1-{str(n)}-{str(num_labels)}.npy'
+        with open(label_name, 'wb') as f:
+            np.save(f, label)
+        num_labels += 1
 
 
 
