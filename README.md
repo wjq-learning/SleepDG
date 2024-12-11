@@ -15,9 +15,14 @@ The HMC dataset is on https://physionet.org/content/hmc-sleep-staging/1.1/
 
 The P2018 dataset is on https://physionet.org/content/challenge-2018/1.0.0/
 
-
-#### Please cite:
+## How to run:
 ```bash
+python main_5.py
+```
+
+
+## Please cite:
+```bibtex
 @inproceedings{wang2024generalizable,
   title={Generalizable Sleep Staging via Multi-Level Domain Alignment},
   author={Wang, Jiquan and Zhao, Sha and Jiang, Haiteng and Li, Shijian and Li, Tao and Pan, Gang},
